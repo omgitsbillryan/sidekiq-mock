@@ -12,7 +12,7 @@ RSpec.describe Sidekiq::Limiter do
     end
 
     it 'yields code block' do
-      expect(subject.within_limit { return 999 } ).to eq(999)
+      expect(subject.within_limit { 999 } ).to eq(999)
     end
   end
 end
