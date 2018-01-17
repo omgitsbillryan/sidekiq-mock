@@ -1,8 +1,6 @@
 # Sidekiq::Mock
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/sidekiq/mock`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This gem is meant as a mock implementation of Sidekiq Enterprise. [sidekiq-ent](https://github.com/mperham/sidekiq/wiki#sidekiq-enterprise) requires a license key to download. As an organization, you may not want to widely distribute this license key to all developers. Sidekiq Mock is meant to mock all of the API's available for use in [sidekiq-ent](https://github.com/mperham/sidekiq/wiki#sidekiq-enterprise) that are not available in plain old [sidekiq](https://github.com/mperham/sidekiq).
 
 ## Installation
 
